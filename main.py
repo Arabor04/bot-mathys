@@ -17,12 +17,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U oimbot')
+os.system('pip install -U aurelbot')
 os.system('clear')
 
-import oimbot
+import aurelbot
 
-client = oimbot.PartyBot(
+client = aurelbot.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
