@@ -17,12 +17,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U aurelbot')
+os.system('pip install -U rs7bot')
 os.system('clear')
 
-import aurelbot
+import rs7bot
 
-client = aurelbot.PartyBot(
+client = rs7bot.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
